@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,300;0,700;1,300&display=swap');
+body{
+	background-color: #191919;
+	color: #666666;
+	font-family: 'Roboto Serif', sans-serif;	margin: 0;
+}
+footer{
+	font-size:  .80em;
+	font-style: italic;
+	text-align:  center;
+}
+h1{
+	font-size: 4em;
+}
+
+h1{
+	text-align: center;
+}
+nav{
+	background-color: black;
+	border-top: 2px solid lightblue;
+	border-bottom: 2px solid lightblue;
+}
+a:link{
+color: blue;
+}
+a:visited{
+color: white;
+}
+a:hover{
+color: yellow;
+}
+a:active{
+color: lightskyblue;
+}
+nav a:link{
+color: white;
+}
+nav a:visited{
+color: white;
+}
+nav a:hover{
+color: yellow;
+}
+nav a:active{
+color: white;
+}
+footer a:link{
+color: lightpink;
+}
+footer a:visited{
+color: lightpink;
+}
+footer a:hover{
+color: yellow;
+}
+footer a:active{
+color: black;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+form {
+    background-color: #efefef;
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px grey;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+table{
+	border-collapse: collapse;
+	border: 5px solid green;
+	background-color: #eeeeee;
+	border-spacing:1px;
+	margin-bottom: 100px;
+}
+td, th{
+	border: 1px solid grey;
+	padding: 5px;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    line-height: 1.5;
+}
+input,textarea{
+	margin-bottom: 1em;
+	display: inline-block;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	scroll-behavior: smooth;
+}
+hr{
+	width: 75%;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #fff;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+footer {
+    background-color: black;
+    font-size: 20px;
+    border-top: 1px solid gray;
+	padding: 30px;
+	color: #fcfcfc;
+}
+.me{
+	padding-right: 30px;
+	margin-bottom: 40px;
+}
+p,li{
+	line-height: 1.5;
+	color: #fcfcfc;
+}
+img{
+	margin: 0 auto;
+	display: block;
+}
+nav ul{
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+body{
+	margin: 0;
+}
+header{
+	background-color: #4285f4;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.about-me p,.about-me ul,.about-me li{
+	color: #fcfcfc;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 18px;
+}
+.about-me {
+	background-color: #191919;
+}
+.about-me h2,h1{
+	color: white;
+	font-size: 50px;
+}
+img{
+	padding: 10px;
+}
+i.fa{
+	font-size: 50px;
+}
+canvas{
+	box-shadow: 2px 2px 6px black;
+	border: 3px solid #040404;
+}
+h2 {
+	color: #fcfc;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1{
+	display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.my-resume{
+	max-width: 800px;
+	margin: 0 auto;
+	margin: 30px auto;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+    padding: 30px 5%;
+}
+.my-resume h3,.my-resume p, .my-resume li{
+	color: #fcfcfc;
+}
+.my-resume h3{
+	font-weight: bold;
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+}
