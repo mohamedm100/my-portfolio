@@ -22,7 +22,7 @@ nav{
 	border-bottom: 2px solid lightblue;
 }
 a:link{
-color: blue;
+color: orange;
 }
 a:visited{
 color: white;
@@ -147,12 +147,11 @@ footer {
 	padding: 30px;
 	color: #fcfcfc;
 }
-.me{
+.me-img-fluid{
 	padding-right: 30px;
-	margin-bottom: 40px;
 }
+
 p,li{
-	line-height: 1.5;
 	color: #fcfcfc;
 }
 img{
@@ -190,7 +189,7 @@ nav ul li a{
 }
 .about-me h2,h1{
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 }
 img{
 	padding: 10px;
@@ -203,7 +202,7 @@ canvas{
 	border: 3px solid #040404;
 }
 h2 {
-	color: #fcfc;
+	color: #fcfcfc;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -235,6 +234,79 @@ h1{
 	font-weight: bold;
 }
 /* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+canvas{
+	margin: 0 auto;
+    display: block;
+}
+.game-controls{
+	margin-top: 20px;
+	text-align: center;
+}
+.big-3{
+	text-align:center;
+}
+
+.big-3 i.fa{
+	font-size: 6em;
+	color: #3D3491;
+}
+button{
+	background-color: #3D3491;
+	color: white;
+	padding: 3px 15px;
+	border-radius: 3px;
+}
+button:hover{
+	background-color: lightskyblue;
+}
+.myButton {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+.row center{
+	font-style: italic;
+	font-size: 15px;
+}
+.me-img-fluid{
+	border-radius: 100px;
+}
+.gallery .gallery-thumbnails{
+		text-align:center;
+	}
+	.gallery .gallery-thumbnails img{
+	    width: 150px;
+	}
+
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+    color: white;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
 .mobile{
 	display:none;
 }
